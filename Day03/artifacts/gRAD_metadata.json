@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "r",
+						"type": "int256"
+					}
+				],
+				"name": "area",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day03/d3p1.sol": "gRAD"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day03/d3p1.sol": {
+			"keccak256": "0x51b332b05717ca9213709b62a73278c1a15c7aa11938d4340c3a238524abafaf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f842f3e0bb2317548ad6bb69b8218c82d07ec9a2c1062d9c02912de351cbb050",
+				"dweb:/ipfs/QmPsPgo1sE7tT11Pipy1dYpttbJ7QawRdTzLSzB7E5Mxkq"
+			]
+		}
+	},
+	"version": 1
+}

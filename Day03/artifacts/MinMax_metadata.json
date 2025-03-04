@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "n2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "n3",
+						"type": "uint256"
+					}
+				],
+				"name": "get",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "max",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "min",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day03/d3p2.sol": "MinMax"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day03/d3p2.sol": {
+			"keccak256": "0x871f6b1ec6c7b71f81f55a30b1f94a81aa5c042921c6d4e70ae32360961f8c92",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c052871cc785e291975acf72755d4de33175cbb13d3f4fa0bed1e6696f59439a",
+				"dweb:/ipfs/QmexSNHsiNTDyoj3VdtXS8JgJ8ZQJTzieHgDRfYqUwAPwk"
+			]
+		}
+	},
+	"version": 1
+}

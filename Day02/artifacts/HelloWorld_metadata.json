@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "greet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "prints",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day02/d2p1.sol": "HelloWorld"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day02/d2p1.sol": {
+			"keccak256": "0x9946c6dc297cd21687eaae84eb6b96d48a6789d52a12670ffc6b67b8047bd624",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://81dcab47e79b16995728a6e3515ee52e6b462ad450c2501676566d692ae73722",
+				"dweb:/ipfs/QmRpbHEJx5VAwNkhWiLtmD4FS2WDCw5FpEuPQQLJLycmwn"
+			]
+		}
+	},
+	"version": 1
+}

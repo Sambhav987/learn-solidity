@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "n2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "n3",
+						"type": "uint256"
+					}
+				],
+				"name": "isTriangle",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day03/d3p3.sol": "Triangle"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day03/d3p3.sol": {
+			"keccak256": "0xd8307aa7d6e6e6f5d49a2bb8cd8d97097c25c5a513dbc217bba72f873d88844b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dad6a16af5e9dfe98fa1144bb01b2f7d5ec8fe1efd7312ffa8b444ac2274c47f",
+				"dweb:/ipfs/QmUKFevoruMkYznA6pvCkbo2kj8KyHG6Ag9HqwqE39wJsQ"
+			]
+		}
+	},
+	"version": 1
+}
